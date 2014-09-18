@@ -1,6 +1,6 @@
 rsSMTP
 ======
-<pre>
+```PoSh
 WindowsFeature SMTP-Server
 {
    Ensure = "Present"
@@ -25,4 +25,4 @@ rsSMTP SMTPconfig
     LogExtFileWin32Status = $True
     RelayIpList = @("127.0.0.1")
 }
-</pre>
+```
